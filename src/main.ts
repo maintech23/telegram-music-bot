@@ -1,4 +1,4 @@
-import { token } from '../config.json';
+const token = process.env.TOKEN;
 import { StreamersRegexList } from './constants/validation';
 import { downloadSongSC, getSongInfoSC } from './Soundcloud/soundcloud';
 import { onlyUnique } from './Utils/Utils';
